@@ -1,12 +1,12 @@
 // --- Dictionnaire de traductions (inchangé) ---
 const translations = {
     en: {
-        title: "sly2 netlify",
-        description: "Embark on a thrilling space exploration odyssey in sly2 netlify ! Pilot advanced spacecraft through uncharted galaxies, uncover cosmic secrets, and face interstellar challenges. Whether you choose to venture solo, mastering the art of stealth and strategy, or team up with friends in dynamic multiplayer mode, you'll navigate treacherous nebulae, discover ancient alien artifacts, and engage in epic space battles. With a rich narrative blending humor, drama, and high-stakes heists across the cosmos, sly2 netlify offers an immersive experience that combines exploration, teamwork, and cunning tactics in a vast, visually stunning universe.",
+        title: "Celestia Flux",
+        description: "Embark on a thrilling space exploration odyssey in Celestia Flux ! Pilot advanced spacecraft through uncharted galaxies, uncover cosmic secrets, and face interstellar challenges. Whether you choose to venture solo, mastering the art of stealth and strategy, or team up with friends in dynamic multiplayer mode, you'll navigate treacherous nebulae, discover ancient alien artifacts, and engage in epic space battles. With a rich narrative blending humor, drama, and high-stakes heists across the cosmos, Celestia Flux offers an immersive experience that combines exploration, teamwork, and cunning tactics in a vast, visually stunning universe.",
         cta: "Join Beta Test",
         "about-title": "About the Game",
-        "about-text": "sly2 netlify is an immersive space exploration game blending solo and multiplayer experiences. Navigate vast galaxies, pilot advanced spacecraft, and uncover cosmic mysteries in a thrilling adventure across the stars.",
-        "features-title": "Why Play sly2 netlify?",
+        "about-text": "Celestia Flux is an immersive space exploration game blending solo and multiplayer experiences. Navigate vast galaxies, pilot advanced spacecraft, and uncover cosmic mysteries in a thrilling adventure across the stars.",
+        "features-title": "Why Play Celestia Flux?",
         "feature1-title": "Space Exploration",
         "feature1-text": "Discover uncharted planets and navigate treacherous nebulae using advanced spacecraft and navigation tools.",
         "feature2-title": "Multiplayer & Solo Modes",
@@ -23,20 +23,20 @@ const translations = {
         "rec-title": "Recommended Requirements",
         "gallery-title": "Game Gallery",
         "beta-title": "Join the PC Beta Test",
-        "beta-text": "Be among the first to play sly2 netlify on PC. Sign up now to test the game and help shape its future!",
+        "beta-text": "Be among the first to play Celestia Flux on PC. Sign up now to test the game and help shape its future!",
         submit: "Sign Up",
         "download-title": "Download the PC Beta",
-        "download-text": "Ready to steal the show? Download the sly2 netlify beta for PC and start your heist!",
+        "download-text": "Ready to steal the show? Download the Celestia Flux beta for PC and start your heist!",
         "download-btn": "Download Now",
-        "footer-text": "© 2025 sly2 netlify. All rights reserved."
+        "footer-text": "© 2025 Celestia Flux. All rights reserved."
     },
     fr: {
-        title: "sly2 netlify : Les Voleurs",
-        description: "Embarkez pour une odyssée palpitante d'exploration spatiale dans sly2 netlify : Les Voleurs ! Pilotez des vaisseaux spatiaux avancés à travers des galaxies inexplorées, découvrez des secrets cosmiques et affrontez des défis interstellaires. Que vous choisissiez de partir en solo, en maîtrisant l'art de la furtivité et de la stratégie, ou de vous associer à des amis en mode multijoueur dynamique, vous naviguerez à travers des nébuleuses traîtres, découvrirez d'anciens artefacts aliens et participerez à des batailles spatiales épiques. Avec un récit riche mêlant humour, drame et cambriolages à haut risque à travers le cosmos, sly2 netlify offre une expérience immersive combinant exploration, travail d'équipe et tactiques astucieuses dans un univers vaste et visuellement stupéfiant.",
+        title: "Celestia Flux : Les Voleurs",
+        description: "Embarkez pour une odyssée palpitante d'exploration spatiale dans Celestia Flux : Les Voleurs ! Pilotez des vaisseaux spatiaux avancés à travers des galaxies inexplorées, découvrez des secrets cosmiques et affrontez des défis interstellaires. Que vous choisissiez de partir en solo, en maîtrisant l'art de la furtivité et de la stratégie, ou de vous associer à des amis en mode multijoueur dynamique, vous naviguerez à travers des nébuleuses traîtres, découvrirez d'anciens artefacts aliens et participerez à des batailles spatiales épiques. Avec un récit riche mêlant humour, drame et cambriolages à haut risque à travers le cosmos, Celestia Flux offre une expérience immersive combinant exploration, travail d'équipe et tactiques astucieuses dans un univers vaste et visuellement stupéfiant.",
         cta: "Rejoindre le Test Bêta",
         "about-title": "À propos du Jeu",
-        "about-text": "sly2 netlify : Les Voleurs est un jeu d'exploration spatiale immersif qui mêle expériences solo et multijoueur. Naviguez à travers de vastes galaxies, pilotez des vaisseaux spatiaux avancés et découvrez des mystères cosmiques dans une aventure palpitante à travers les étoiles.",
-        "features-title": "Pourquoi Jouer à sly2 netlify ?",
+        "about-text": "Celestia Flux : Les Voleurs est un jeu d'exploration spatiale immersif qui mêle expériences solo et multijoueur. Naviguez à travers de vastes galaxies, pilotez des vaisseaux spatiaux avancés et découvrez des mystères cosmiques dans une aventure palpitante à travers les étoiles.",
+        "features-title": "Pourquoi Jouer à Celestia Flux ?",
         "feature1-title": "Exploration Spatiale",
         "feature1-text": "Découvrez des planètes inconnues et naviguez à travers des nébuleuses traîtresses grâce à des vaisseaux spatiaux avancés et des outils de navigation.",
         "feature2-title": "Modes Multijoueur & Solo",
@@ -53,12 +53,12 @@ const translations = {
         "rec-title": "Configuration Recommandée",
         "gallery-title": "Galerie du Jeu",
         "beta-title": "Rejoignez le Test Bêta PC",
-        "beta-text": "Soyez parmi les premiers à jouer à sly2 netlify : Les Voleurs sur PC. Inscrivez-vous maintenant pour tester le jeu et contribuer à son avenir !",
+        "beta-text": "Soyez parmi les premiers à jouer à Celestia Flux : Les Voleurs sur PC. Inscrivez-vous maintenant pour tester le jeu et contribuer à son avenir !",
         submit: "S'inscrire",
         "download-title": "Télécharger la Bêta PC",
-        "download-text": "Prêt à voler la vedette ? Téléchargez la bêta de sly2 netlify pour PC et commencez votre cambriolage !",
+        "download-text": "Prêt à voler la vedette ? Téléchargez la bêta de Celestia Flux pour PC et commencez votre cambriolage !",
         "download-btn": "Télécharger Maintenant",
-        "footer-text": "© 2025 sly2 netlify : Les Voleurs. Tous droits réservés."
+        "footer-text": "© 2025 Celestia Flux : Les Voleurs. Tous droits réservés."
     }
 };
 
