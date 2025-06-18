@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sly2 netlify</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar visible">
+        <div class="logo">sly2 netlify</div>
+        <ul class="nav-links">
+            <li><a href="#hero" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#features" class="nav-link">Features</a></li>
+            <li><a href="#gallery" class="nav-link">Gallery</a></li>
+            <li><a href="#gameplay" class="nav-link">Gameplay Modes</a></li>
+            <li><a href="#beta" class="nav-link">Beta Test</a></li>
+            <li><a href="#download" class="nav-link">Download</a></li>
+        </ul>
+        <div class="user-actions">
+            <a href="login.html" class="action-link">Login</a>
+            <a href="support.html" class="action-link">Support</a>
+        </div>
+        <div class="language-selector">
+            <select id="language-switcher" onchange="switchLanguage(this.value)">
+                <option value="en">English</option>
+                <option value="fr">Français</option>
+            </select>
+        </div>
+        <div class="menu-toggle">☰</div>
+    </nav>
+
+    <section id="hero" class="hero">
+        <video class="hero-video" autoplay muted loop preload="auto">
+            <source src="video.mp4" type="video/mp4">
+            <source src="video.webm" type="video/webm">
+            Your browser does not support the video tag. Please download the latest version or try a different browser.
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content animate-morph">
+            <h1 class="title" data-translate="title">sly2 netlify</h1>
+            <p class="description" data-translate="description">Embark on a thrilling space exploration odyssey in sly2 netlify! Pilot advanced spacecraft through uncharted galaxies, uncover cosmic secrets, and face interstellar challenges. Whether you choose to venture solo, mastering the art of stealth and strategy, or team up with friends in dynamic multiplayer mode, you'll navigate treacherous nebulae, discover ancient alien artifacts, and engage in epic space battles. With a rich narrative blending humor, drama, and high-stakes heists across the cosmos, sly2 netlify offers an immersive experience that combines exploration, teamwork, and cunning tactics in a vast, visually stunning universe.</p>
+            <a href="#beta" class="cta-btn" data-translate="cta">Join Beta Test</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-title animate-reveal" data-translate="about-title">About the Game</h2>
+        <p class="about-text animate-reveal" data-translate="about-text">sly2 netlify is an immersive space exploration game blending solo and multiplayer experiences. Navigate vast galaxies, pilot advanced spacecraft, and uncover cosmic mysteries in a thrilling adventure across the stars.</p>
+    </section>
+
+    <section id="features" class="features">
+        <h2 class="section-title animate-reveal" data-translate="features-title">Why Play sly2 netlify?</h2>
+        <div class="feature-grid">
+            <div class="feature-card animate-reveal">
+                <div class="card-inner">
+                    <h3 data-translate="feature1-title">Space Exploration</h3>
+                    <p data-translate="feature1-text">Discover uncharted planets and navigate treacherous nebulae using advanced spacecraft and navigation tools.</p>
+                </div>
+            </div>
+            <div class="feature-card animate-reveal">
+                <div class="card-inner">
+                    <h3 data-translate="feature2-title">Multiplayer & Solo Modes</h3>
+                    <p data-translate="feature2-text">Team up with friends for cooperative missions or embark on a solo journey to conquer the cosmos.</p>
+                </div>
+            </div>
+            <div class="feature-card animate-reveal">
+                <div class="card-inner">
+                    <h3 data-translate="feature3-title">Cinematic Story</h3>
+                    <p data-translate="feature3-text">Immerse yourself in a narrative packed with humor, drama, and epic interstellar adventures.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gameplay" class="features">
+        <h2 class="section-title animate-reveal" data-translate="gameplay-title">Gameplay Modes</h2>
+        <div class="feature-grid">
+            <div class="feature-card animate-reveal">
+                <div class="card-inner">
+                    <h3 data-translate="solo-title">Solo Campaign</h3>
+                    <p data-translate="solo-text">Embark on a personal journey through the galaxy, mastering stealth, strategy, and exploration. Complete challenging missions, unlock new spacecraft, and unravel the secrets of the cosmos at your own pace.</p>
+                </div>
+            </div>
+            <div class="feature-card animate-reveal">
+                <div class="card-inner">
+                    <h3 data-translate="multi-title">Cooperative Multiplayer</h3>
+                    <p data-translate="multi-text">Join forces with up to four players for cooperative missions. Work together to tackle complex heists, engage in space combat, and explore vast star systems, with seamless communication and teamwork tools.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="requirements" class="features">
+        <h2 class="section-title animate-reveal" data-translate="req-title">System Requirements</h2>
+        <div class="feature-grid">
+            <div class="feature-card animate-reveal">
+                <div class="card-inner">
+                    <h3 data-translate="min-title">Minimum Requirements</h3>
+                    <p>OS: Windows 10 64-bit<br>Processor: Intel Core i5-4460 or AMD FX-6300<br>Memory: 8 GB RAM<br>Graphics: NVIDIA GeForce GTX 960 or AMD Radeon R7 370<br>Storage: 50 GB available space</p>
+                </div>
+            </div>
+            <div class="feature-card animate-reveal">
+                <div class="card-inner">
+                    <h3 data-translate="rec-title">Recommended Requirements</h3>
+                    <p>OS: Windows 11 64-bit<br>Processor: Intel Core i7-9700 or AMD Ryzen 5 5600X<br>Memory: 16 GB RAM<br>Graphics: NVIDIA GeForce RTX 2060 or AMD Radeon RX 6600<br>Storage: 50 GB SSD</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2 class="section-title animate-reveal" data-translate="gallery-title">Game Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item animate-reveal">
+                <img src="hero-image.jpg" alt="Game Screenshot 1" class="gallery-img">
+            </div>
+            <div class="gallery-item animate-reveal">
+                <img src="stealth-image.jpg" alt="Game Screenshot 2" class="gallery-img">
+            </div>
+            <div class="gallery-item animate-reveal">
+                <img src="VESAUT.png" alt="Game Screenshot 3" class="gallery-img">
+            </div>
+            <div class="gallery-item animate-reveal">
+                <img src="fenetre.png" alt="Game Screenshot 3" class="gallery-img">
+            </div>
+        </div>
+        <div id="lightbox" class="gallery-lightbox">
+            <span class="lightbox-close">×</span>
+            <img id="lightbox-img" class="lightbox-img">
+        </div>
+    </section>
+    <section id="download" class="download">
+        <h2 class="section-title animate-reveal" data-translate="download-title">Download the PC Beta</h2>
+        <p class="download-text animate-reveal" data-translate="download-text">Ready to steal the show? Download the sly2 netlify beta for PC and start your heist!</p>
+        <a href="#" class="download-btn" data-translate="download-btn">Download Now</a>
+    </section>
+
+    <footer class="footer">
+        <p data-translate="footer-text">© 2025 sly2 netlify. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

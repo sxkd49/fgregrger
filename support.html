@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - sly2 netlify</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-box">
+            <form id="support-form" class="auth-form">
+                <h2>Contact Support</h2>
+                <p>Our agents will receive your transmission.</p>
+                <input type="email" id="support-email" placeholder="Your Email" required>
+                <select id="support-subject" required>
+                    <option value="" disabled selected>Select a subject</option>
+                    <option value="technical">Technical Issue</option>
+                    <option value="account">Account Problem</option>
+                    <option value="gameplay">Gameplay Question</option>
+                    <option value="other">Other</option>
+                </select>
+                <textarea id="support-message" placeholder="Describe your issue here..." rows="6" required></textarea>
+                <button type="submit" class="submit-btn">Send Transmission</button>
+                <p class="form-switcher" style="margin-top: 20px;"><a href="index.html">← Back to Main Site</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="auth.js"></script>
+</body>
+</html>

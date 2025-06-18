@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - sly2 netlify</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="admin-container">
+        <header class="admin-header">
+            <h1>Admin Panel</h1>
+            <p id="admin-welcome">Welcome, agent.</p>
+            <a href="#" id="admin-logout-btn" class="action-link">Logout</a>
+        </header>
+
+        <main class="admin-main">
+            <h2>Support Tickets</h2>
+            <div class="tickets-container">
+                <table id="tickets-table">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>From</th>
+                            <th>Subject</th>
+                            <th>Message</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tickets-tbody">
+                        </tbody>
+                </table>
+                <p id="no-tickets-message" style="display: none;">No support tickets found.</p>
+            </div>
+        </main>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>
